@@ -1,0 +1,22 @@
+{
+  "name": "amazon-s3-buckets",
+  "version": "1.0.0",
+  "description": "Implementation of uploading files to s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1100.0",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.2.8",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "uuid": "^8.3.2"
+  }
+}
